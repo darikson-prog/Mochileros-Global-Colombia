@@ -1,0 +1,141 @@
+/* Estilos del formulario de contacto */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.Contact
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(white, lightgray);
+  color: black;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15;
+}
+
+.título1{
+  font-weight: bold;
+}
+
+.input-field {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.input-field::placeholder {
+  color: #999999;
+}
+
+.input-field:focus::placeholder {
+  color: transparent;
+}
+
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 75px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+  .contact-form h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form textarea {
+    height: 120px;
+  }
+  
+  .contact-form button {
+  padding: 12px 24px;
+  background-color: #2d2e83;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+  .contact-form button:hover {
+    background-color: #4f4f5e;
+  }
+  
+  .thank-you-message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para dispositivos móviles */
+  @media screen and (max-width: 480px) {
+    .contact-form {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10x;
+      box-sizing: border-box; /* Este es para que los espacios para llenar nombre y etc también se adapten al tamaño de pantalla */
+      margin-bottom: 10px;
+    }
+  
+    .contact-form button {
+      padding: 8px 16px;
+    }
+  }
+
+
+  .contact-form-container {
+  position: relative;
+}
+
+/* Estilos del footer*/
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 5;
+  width: 100%;
+  margin-top: 80px; /* Agrega un margen superior para separar el footer del contenido */
+}
+
+

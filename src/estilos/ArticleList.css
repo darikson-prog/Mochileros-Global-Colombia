@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(white, lightgray);
+      color: black;
+      text-align: justify;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 15;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      font-weight: bold;
+      color: #333; /* Cambia el color de los títulos */
+      margin-bottom: 20px; /* Agrega un margen inferior para separar los títulos del contenido */
+    }
+
+    p {
+      margin-bottom: 20px; /* Agrega un margen inferior para separar los párrafos */
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 30px;
+      padding-left: 15px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 400px; /* Establece la altura máxima deseada */
+      width: auto;
+      height: auto;
+      margin-top: 15px;
+      border-radius: 10px; /* Agrega bordes redondeados a las imágenes */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra a las imágenes */
+      margin-top: auto;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px; /* Agrega un margen superior para separar el footer del contenido */
+    }
+
+    /* Estilos para las etiquetas <a> */
+    a {
+      color: blue; /* Cambia el color del texto del enlace */
+      text-decoration: none; /* Elimina la decoración de subrayado */
+    }
+
+    a:hover {
+      color: red; /* Cambia el color del texto del enlace al pasar el cursor sobre él */
+      text-decoration: underline; /* Agrega un subrayado al pasar el cursor sobre el enlace */
+    }
+
+    @media (max-width: 768px) {
+      /* Estilos aplicados en pantallas con un ancho máximo de 768px */
+      /* Ajusta los estilos para que se adapten a pantallas más pequeñas */
+      body {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      /* Estilos aplicados en pantallas con un ancho máximo de 480px */
+      /* Ajusta los estilos para dispositivos móviles */
+      h1 {
+        font-size: 24px; /* Reduce el tamaño del título en pantallas más pequeñas */
+      }
+      h2 {
+        font-size: 20px; /* Reduce el tamaño del título en pantallas más pequeñas */
+      }
+      h3 {
+        font-size: 18px; /* Reduce el tamaño del título en pantallas más pequeñas */
+      }
+    }
